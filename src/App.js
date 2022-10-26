@@ -44,9 +44,10 @@ function App() {
   return (
     <div className={classes.mainContainer}>
       <div className={classes.logoContainer}>
-        <img src="https://voicebot.ai/wp-content/uploads/2019/10/alan.jpg" 
-        className={classes.alanLogo} 
-        alt="logo" />
+        <h1 style={{
+          color: '#fff',
+          padding: '0 90px'
+        }}>You can search news by categories, by terms & by Sources. Each of them have many options. User is capable of go back to the main page with the command - 'Go back' ! </h1>
       </div>
       <NewsCards articles={newsArticles} activeArticle={activeArticle} />
     </div>

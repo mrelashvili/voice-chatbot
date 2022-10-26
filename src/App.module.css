@@ -1,3 +1,5 @@
+
+
 .footer {
   text-align: center;
   position: fixed;
@@ -48,6 +50,9 @@
 }
 
 .mainContainer {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
 
 .infoContainer {
@@ -62,6 +67,8 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
+
+  padding: 7rem 0;
 }
 
 .alanLogo {
